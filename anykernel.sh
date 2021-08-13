@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Predator Kernel by MhdIyan
+kernel.string=Predator reborn Kernel by Xzyannn
 do.devicecheck=1
 do.modules=1
 do.systemless=0
