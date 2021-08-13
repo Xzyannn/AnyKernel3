@@ -3,9 +3,9 @@ BRANCH := $(shell git -C .. rev-parse --abbrev-ref HEAD)
 
 ifeq ($(findstring 10,$(BRANCH)),10)
     ifeq ($(findstring ginkgo,$(DEVICE)),ginkgo)
-        NAME := Predator-Kernel-ginkgo-Q/10
+        NAME := Predator-Kernel-ginkgo-R
     else
-        NAME := Predator-Kernel-ginkgo-Q/10
+        NAME := Predator-Kernel-ginkgo-R
     endif
     DATE := $(shell date "+%Y%m%d")
     ZIP := $(NAME)-$(DATE).zip
@@ -14,9 +14,9 @@ else
         NAME := Predator-Kernel-ginkgo-Q/10
     else
     ifeq ($(findstring ginkgo,$(DEVICE)),ginkgo)
-        NAME := Predator-Kernel-ginkgo-Q/10
+        NAME := Predator-Kernel-ginkgo-R
     else
-        NAME := Predator-Kernel-ginkgo-Q/10
+        NAME := Predator-Kernel-ginkgo-R
     endif
     endif
     DATE := $(shell date "+%Y%m%d")
